@@ -20,4 +20,4 @@ app.get('/cashier', function (req, res) {
   res.send('you are on cashier')
 })
  
-app.listen( process.env.PORT || 5000);
+app.listen( process.env.PORT || '5000');
